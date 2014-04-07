@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 	private static final String PROPERTY_APP_VERSION = "appVersion";
 	private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
 	
-	String SENDER_ID = "583481635501";//Project number
+	String SENDER_ID = "YOUR PROJECT ID";//Project number
 	
 	GoogleCloudMessaging gcm;
     AtomicInteger msgId = new AtomicInteger();
